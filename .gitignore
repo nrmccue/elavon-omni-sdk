@@ -1,4 +1,16 @@
+# Byte-compiled / cache
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
 .venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
