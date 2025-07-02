@@ -1,10 +1,13 @@
 """
-Configuration for API endpoints and versions.
+Configuration for Elavon API endpoints and defaults.
 """
 
 API_VERSIONS = {
-    "v1": "https://api.na.elavon.com/v1/",
-    "v2": "https://api.na.elavon.com/v2/"
+    "v1": "https://api.convergepay.com/VirtualMerchant/",
+}
+
+SANDBOX_API_VERSIONS = {
+    "v1": "https://api.demo.convergepay.com/VirtualMerchant/",
 }
 
 DEFAULT_TIMEOUT = 30

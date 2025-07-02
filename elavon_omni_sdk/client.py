@@ -78,7 +78,7 @@ class ElavonClient:
         """
         Authorize a payment.
         """
-        return self._request("POST", "payments/authorize", payload)
+        return self._request("POST", "transactions", payload)
 
     def capture_payment(self, transaction_id, amount):
         """

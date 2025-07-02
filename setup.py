@@ -1,7 +1,3 @@
----
-
-### `setup.py`
-```python
 from setuptools import setup, find_packages
 
 setup(
@@ -11,7 +7,8 @@ setup(
     author="Your Name",
     packages=find_packages(),
     install_requires=[
-        "requests"
+        "requests",
+        "python-dotenv"
     ],
     python_requires=">=3.7",
 )
